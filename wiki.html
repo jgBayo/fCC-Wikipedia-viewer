@@ -3,14 +3,25 @@
 <head>
     <meta charset="utf-8"> 
 
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>-->
+    <!--JS and CSS files-->
     <script type="text/javascript" src="wiki.js"></script>
     <link rel="stylesheet" type="text/css" href="wiki.css">
 
 </head>
 <body>
-    <div class="randomizer"><a href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random wikipedia article</a></div>
-    <div class="searchbox"></div>
+    <h1>Wikipedia Viewer</h1>
+    <div class="randomizer"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" >Click here for a random wikipedia article</a></div>
+    <div class="searchbox">
+        <!--<form action="search_wiki">-->
+        <form>
+            <input type="text" placeholder="">
+            <!--<button type="submit">Submit</button>-->
+        </form>
+    </div>
 </body>
