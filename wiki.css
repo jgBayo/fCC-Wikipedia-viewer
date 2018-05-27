@@ -20,9 +20,11 @@ h1{
     padding:1em;
     font-weight: bold;
     text-decoration: none;
+    text-align:center;
 }
 .search-box{
-    padding:1em;    
+    padding:0.5em;
+    text-align:center;    
 }
 a{
     text-decoration: none;
@@ -41,13 +43,22 @@ input[type=search] {
     border-radius: 1.25em;   
     margin:auto;
     margin-top:0.5em;
-    width:100%;
-    padding: 12px 20px;
+    width:25%;
+    /*padding: 12px 20px;*/
+    padding: 12px 20px 12px 40px;
     box-sizing: border-box;
     background-color: #FFF643;
     font-family: "Lato", sans-serif;
     color: black;
     caret-color: black;
     font-weight: bold;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
     outline: none;
+    background-image: url('search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+}
+input[type=search]:focus {
+    width: 100%;
 }
