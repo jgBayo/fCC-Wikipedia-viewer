@@ -1,10 +1,10 @@
 var sText = "oasis"
 $(document).ready(function() {
     
-    $("button").on("click", function() {    
+    //$("button").on("click", function() {    
     $(".search-form").on("submit", function() {
         
-        //sText=$("#search-text").name;
+        sText=$("#search-text").name;
         //console.log(sText);
         //alert("Form submited");
         
