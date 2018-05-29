@@ -24,6 +24,7 @@ $(document).ready(function() {
          
         event.preventDefault();
        //return false;
+        // ?curid=0000000
     });
 
 });
