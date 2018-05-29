@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(".search-form").on("submit", function() {
         
         sText=$("#search-text").name;
-        //console.log(sText);
+        console.log(sText);
         //alert("Form submited");
         
         $.ajax({
