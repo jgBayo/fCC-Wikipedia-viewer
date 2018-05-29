@@ -2,9 +2,9 @@ var sText = "oasis"
 $(document).ready(function() {
     
     //$("button").on("click", function() {    
-    $(".search-form").on("submit", function() {
+    $(".search-form").on("submit", function(event) {
         
-        sText=$("#search-text").name;
+        sText=$("#search-text")[0].value;
         console.log(sText);
         //alert("Form submited");
         
@@ -22,9 +22,8 @@ $(document).ready(function() {
             }
          });
          
-        //event.preventDefault;
-       return false;
+        event.preventDefault();
+       //return false;
     });
 
 });
-
